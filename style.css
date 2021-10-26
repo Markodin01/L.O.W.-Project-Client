@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	height: 40%;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("image2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+
+
+
+}
+
+.header img{
+	width: 300px;
+	float: left;
+	padding-top: 30px;
+	margin-left: 350px;
+
+}
+
+.header h1{
+	padding-top: 80px;
+	padding-bottom: 0px;
+	font-size: 120px
+
+
+}
+
+.header p{
+	margin: 18px 0;
+	font-size: 90px;
+
+}
+
+@font-face { font-family: OldLondon; src: url('OldLondon.ttf'); } 
+      h1 {
+         font-family: OldLondon;
+      }
+      p{
+        font-family: OldLondon;
+      }
+
+.collapsible {
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+}
+.column {
+  float: left;
+  padding: 30px;
+
+}
+
+.left {
+  width: 80%;
+}
+
+.right {
+  width: 20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+
+}
+
+button.accordion {
+  width: 100%;
+  background-color: whitesmoke;q
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #444;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.accordion:after {
+  content: '\f055';
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: '\f056';
+}
+
+button.accordion:hover, button.accordion.is-open {
+  background-color: white;
+}
+
+.accordion-content {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+
+
+.feature-image img{
+	width: 100%;
+	float: left;
+}
+
+
+.name-of-monument{
+	width:200px;
+	height: 50px;
+	background: #fff;
+	color: gray;
+	font-weight: 600;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+}
+
+.name{
+	font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
