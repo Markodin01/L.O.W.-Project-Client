@@ -1,177 +1,67 @@
-*{
-	padding: 0;
-	margin: 0;
-}
-.header{
-	height: 40%;
-	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("image2.jpg");
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	padding-top: 20px;
-	text-align: center;
-	color: white;
 
 
-
-}
-
-.header img{
-	width: 300px;
-	float: left;
-	padding-top: 30px;
-	margin-left: 350px;
-
-}
-
-.header h1{
-	padding-top: 80px;
-	padding-bottom: 0px;
-	font-size: 120px
-
-
-}
-
-.header p{
-	margin: 18px 0;
-	font-size: 90px;
-
-}
-
-@font-face { font-family: OldLondon; src: url('OldLondon.ttf'); } 
-      h1 {
-         font-family: OldLondon;
-      }
-      p{
-        font-family: OldLondon;
-      }
-
-.collapsible {
-  background-color: white;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
+html, body{
+  height: 100%
   width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+  color: #222;
 }
 
-.active, .collapsible:hover {
-  background-color: white;
-}
-.column {
-  float: left;
-  padding: 30px;
-
+.navbar {
+  padding:4rem;
 }
 
-.left {
-  width: 80%;
+.carousel-inner img{
+  width: 100%
+  height:100%;
+}
+.carousel-caption{
+  position: absolute;
+  top:50%;
 }
 
-.right {
-  width: 20%;
+.jumbotron{
+  padding: 1rem;
+  border-radius: 0;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.jumbotron-image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-}
-.container {
-  width: 80%;
-  max-width: 600px;
-  margin: 50px auto;
-}
-.flexContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-
+.padding{
+  padding-bottom: 2rem;
 
 }
 
-button.accordion {
-  width: 100%;
-  background-color: whitesmoke;q
-  border: none;
-  outline: none;
-  text-align: left;
-  padding: 15px 20px;
-  font-size: 18px;
-  color: #444;
-  cursor: pointer;
-  transition: background-color 0.2s linear;
+footer{
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+  padding-top: 2rem;
 }
 
-button.accordion:after {
-  content: '\f055';
-  font-family: "fontawesome";
-  font-size: 14px;
-  float: right;
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+
 }
 
-button.accordion.is-open:after {
-  content: '\f056';
+.tekst{
+  font-size: 30px;
 }
 
-button.accordion:hover, button.accordion.is-open {
-  background-color: white;
+#tekst-head{
+  font-size: 50px;
+  padding-bottom: 2rem;
 }
 
-.accordion-content {
-  background-color: white;
-  border-left: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
-  padding: 0 20px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-in-out;
+.lead{
+  font-size: 45px;
 }
 
-
-
-.feature-image img{
-	width: 100%;
-	float: left;
+.lead-head{
+  font-size: 60px;
 }
 
-
-.name-of-monument{
-	width:200px;
-	height: 50px;
-	background: #fff;
-	color: gray;
-	font-weight: 600;
-	border-radius: 50%;
-	padding: 10px;
-	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+.center {
+  text-align: center;
 }
-
-.name{
-	font-size: 100px;
-}
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
-
-
-
-
-
-
-
-
 
 
 /*---Media Queries --*/
@@ -184,7 +74,6 @@ button.accordion:hover, button.accordion.is-open {
 @media (max-width: 576px) {
   
 }
-
 
 
 
