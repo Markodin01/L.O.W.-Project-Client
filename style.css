@@ -39,13 +39,16 @@ footer{
 .tekst{
   font-size: 30px;
   color: gray;
-  padding-left: 6rem;
+  padding-left: 10rem;
+  position: relative;
+  margin-right: 5rem;
 }
 
 #tekst-head{
   font-size: 50px;
   padding-bottom: 2rem;
-  padding-left: 8rem;
+  padding-left: 65rem;
+
 }
 
 .lead{
@@ -157,6 +160,11 @@ ul li:hover a {
   padding-left: 50px;
 }
 
+ul li{
+  font-size: 16px;
+  color: white;
+}
+
 #check{
   display: none;
 }
@@ -214,7 +222,7 @@ label #cancel{
 
 .move{
   transition: all 0.5s; 
-}
+} 
 
 .display-4{
   padding-top: 3rem;
@@ -225,12 +233,11 @@ label #cancel{
   padding-bottom: 4rem;
   padding-left: 5rem;
   padding-top: 3rem;
-  width: 100%;
-  height: 100%;
+  position: relative;
 }
 
 .btn-move{
-  margin-left: 40rem;
+  margin-left: 75rem;
 }
 
 .map-text{

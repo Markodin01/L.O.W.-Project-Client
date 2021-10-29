@@ -1,0 +1,8 @@
+a8cfb79	MAREK GAJEWSKI	Fri Oct 29 21:01:32 2021	images and fonts
+025b87d	MAREK GAJEWSKI	Fri Oct 29 20:59:04 2021	further improvements to the site
+8db0e9a	MAREK GAJEWSKI	Fri Oct 29 02:27:41 2021	further improvements
+ebc437d	MAREK GAJEWSKI	Thu Oct 28 22:26:24 2021	new desing layout and small change for css file
+714d03d	MAREK GAJEWSKI	Tue Oct 26 21:46:00 2021	further improvements of html and css
+9a45d06	MAREK GAJEWSKI	Sun Oct 24 21:47:38 2021	first frameworks to the webpage
+96fdf97	MAREK GAJEWSKI	Sat Oct 23 19:55:20 2021	first project commit
+ba25cf1	Markodin01	Sat Oct 23 19:35:36 2021	Initial commit
